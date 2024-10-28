@@ -1,0 +1,9 @@
+3) Valor final da variável SOMA
+O código fornecido calcula a soma incremental de K até que K seja menor que INDICE. Vamos analisar o loop:
+
+
+int INDICE = 12, SOMA = 0, K = 1;
+enquanto K < INDICE faça {
+    K = K + 1;
+    SOMA = SOMA + K;
+}
