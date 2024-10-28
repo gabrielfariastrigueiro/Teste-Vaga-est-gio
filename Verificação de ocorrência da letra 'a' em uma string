@@ -1,0 +1,14 @@
+Verificação de ocorrência da letra 'a' em uma string
+Este código em Python verifica a presença de 'a' (maiúsculo ou minúsculo) em uma string e conta quantas vezes ela ocorre.
+
+
+def count_letter_a(string):
+    count = string.lower().count('a')
+    if count > 0:
+        return f"A letra 'a' aparece {count} vezes na string."
+    else:
+        return "A letra 'a' não aparece na string."
+
+# Defina a string que você deseja verificar
+text = input("Informe uma string: ")
+print(count_letter_a(text))
