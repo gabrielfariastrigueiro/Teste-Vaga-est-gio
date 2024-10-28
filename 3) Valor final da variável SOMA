@@ -7,3 +7,10 @@ enquanto K < INDICE faça {
     K = K + 1;
     SOMA = SOMA + K;
 }
+
+Passo a passo:
+
+    A cada iteração, K é incrementado e adicionado a SOMA.
+K começa em 1 e vai até 12.
+O valor acumulado em SOMA será: 1 + 2 + 3 + ... + 12 = 78.
+Resposta final para SOMA é 78.
